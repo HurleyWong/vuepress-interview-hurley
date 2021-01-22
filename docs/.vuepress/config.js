@@ -46,7 +46,7 @@ module.exports = {
         nav: [ // 导航栏配置
             { text: '文档首页', link: '/index/' },
             { text: 'Java', link: '/java/关键字' },
-            { text: 'Android', link: '/android/' },
+            { text: 'Android', link: '/android/Activity' },
             { text: '操作系统', link: '/os/' },
             { text: '计算机网络', link: '/network/' },
             { text: '数据库', link: '/sql/' },
@@ -84,6 +84,25 @@ module.exports = {
                 '集合框架',
                 '线程',
                 '23种设计模式'
+            ],
+            '/android/': [
+                'Activity',
+                'Fragment',
+                'Service',
+                'BroadcastReceiver',
+                'ContentProvider',
+                '数据存储',
+                'Bitmap',
+                'Handler',
+                'AsyncTask',
+                '线程',
+                '网络框架',
+                'View',
+                'Animation',
+                'Window',
+                'Layout',
+                '事件',
+                '设计模式'
             ]
         }
     }
