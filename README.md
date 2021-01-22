@@ -1,9 +1,19 @@
+<div align="center">
+    <img src="./assets/interview-vuepress-icon.png" height="150" width="150">
+    <br>
+    <img alt="Netlify" src="https://img.shields.io/netlify/75665ca8-a3d4-44e4-8b10-6ca9b61ae1d1?style=plastic">&nbsp;
+    <img alt="GitHub" src="https://img.shields.io/github/license/HurleyJames/interview-vuepress?style=plastic">&nbsp;
+    <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/HurleyJames/interview-vuepress?style=plastic">
+</div>
+
 ## 🍻 简介
 
 > Campus Recruitment Interview Experience
 
 * 📦 校招面经：本面经是面向Android/Java技术方向的校招求职者，包括Java语言、操作系统、网络等知识及面试经验等
 * 🔋 VuePress驱动：以Markdown为中心的项目结构，打造校招面经的知识笔记
+
+![文档首页](/assets/index.png)
 
 ## 👀 面经版块
 
@@ -58,6 +68,16 @@ npm run docs:dev
 ## 📜 License
 
 本作品采用MIT协议进行许可。
+
+> MIT License
+>
+> Copyright (c) 2021 Hurley
+>
+> Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+>
+> The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+>
+> THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
 ---
 
