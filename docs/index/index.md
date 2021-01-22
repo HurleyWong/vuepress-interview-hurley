@@ -9,12 +9,12 @@
 ## 1. 文档简介
 
 * 📚 本文档是面向Android/Java技术栈方向的校招应届求职者的面经总结，涵盖了Java编程语言、Android相关知识、数据结构、操作系统、算法（LeetCode）、数据库、计算机网络等基础知识。
-* 🛠 本文档基于[VuePress]()开发，使用的是[vuepress-theme-book]()主题，基于Markdown来管理知识系统。
-* 🙏 由于本人水平有限，本文档内容如有任何错误，欢迎提出[Issue]()或者进行`Pull Request`。本文档遵循[MIT]()协议，如果转载请注明出处。
+* 🛠 本文档基于[VuePress](https://vuepress.vuejs.org/zh/)开发，使用的是[vuepress-theme-book](https://vuepress-theme-book.netlify.app/)主题，基于Markdown来管理知识系统。
+* 🙏 由于本人水平有限，本文档内容如有任何错误，欢迎提出[Issue](https://github.com/HurleyJames/interview-vuepress/issues)或者进行`Pull Request`。本文档遵循[MIT]协议，如果转载请注明出处。
 
 ## 2. 自我介绍
 
-> 本人本科就读于NCHU的软件工程专业，硕士就读于[the University of Leeds]()的[Advanced Computer Science(AI)]()专业。虽然本人硕士期间从事的是AI方向，但毕业设计参与的是一个区块链端智能合约开发的项目，且学制较短没有拿出手的论文，所以选择没有尝试国内「灰飞烟灭」的算法岗。最终选择投递了很多互联网厂的移动端开发岗位，除此之外，还有各种大型国企、银行的软件开发工程师岗位。
+> 本人本科就读于NCHU的软件工程专业，硕士就读于[the University of Leeds](https://www.leeds.ac.uk/)的[Advanced Computer Science(AI)](https://courses.leeds.ac.uk/i537/advanced-computer-science-artificial-intelligence-msc)专业。虽然本人硕士期间从事的是AI方向，但毕业设计参与的是一个区块链端智能合约开发的项目，且学制较短没有拿出手的论文，所以选择没有尝试国内「灰飞烟灭」的算法岗。最终选择投递了很多互联网厂的移动端开发岗位，除此之外，还有各种大型国企、银行的软件开发工程师岗位。
 
 ## 3. 面经版块
 
@@ -61,13 +61,28 @@
 
 既然以上提到了要面对不同的公司和岗位，准备不同的简历，那么，使用合适的简历模板就至关重要。请尽量避免在淘宝上购买销量最多的简历模板，因为那样可能有太多人都是这样使用了，并且个人认为是太过于花哨而不实。所以，这里建议可以考虑以下的方案：
 
-
-
 ## 5. 书籍推荐
 
 下面只是推荐有关于准备最开始提到的面试版块的复习书籍推荐：
 
+* 大话数据结构
+* 剑指Offer
+* 编程珠玑
+* 深入理解计算机操作系统
+* 现代操作系统
+* 计算机网络：自顶向下方法
+* SQL必知必会
+* Head First Java
+* Java核心技术卷 I
+* 深入理解Java虚拟机
+* Java并发编程的艺术
+* 第一行代码
+* Android进阶之光
 
 ## 6. 内推/面经网站
 
 下面有一些常用的面试需要用到的网站，上面既会有一些求职者分享的面试经历，还要一些内部员工发布的内推帖子。通过使用内推码，可以让您的简历更加容易通过，直达面试官的电脑。
+
+* [牛客网](https://www.nowcoder.com/)
+* [LeetCode](https://leetcode-cn.com/problemset/all/)
+* [V2EX-酷工作](https://www.v2ex.com/?tab=jobs)
