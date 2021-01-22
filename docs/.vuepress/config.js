@@ -17,6 +17,15 @@ module.exports = {
     plugins: [
         ['@vuepress/back-to-top'],
         ['@vuepress/medium-zoom'],
+        ['@maginapp/vuepress-plugin-katex', {
+            delimiters: 'dollars'
+        }],
+        // ['vuepress-plugin-mathjax', {
+        //     target: 'svg',
+        //     macros: {
+        //         '*': '\\times',
+        //     },
+        // }],
         [
             'vuepress-plugin-container',
             {

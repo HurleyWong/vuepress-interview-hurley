@@ -10,11 +10,13 @@
     "author": "",
     "license": "MIT",
     "devDependencies": {
+        "@maginapp/vuepress-plugin-katex": "^1.0.10",
         "@vuepress/plugin-back-to-top": "^1.8.0",
         "@vuepress/plugin-medium-zoom": "^1.8.0",
         "vuepress": "^1.8.0",
         "vuepress-plugin-code-copy": "^1.0.6",
         "vuepress-plugin-container": "^2.1.5",
+        "vuepress-plugin-mathjax": "^1.2.8",
         "vuepress-theme-reco": "^1.6.1"
     },
     "dependencies": {
