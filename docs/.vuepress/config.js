@@ -49,7 +49,9 @@ module.exports = {
             { text: 'Android', link: '/android/Activity' },
             { text: '操作系统', link: '/os/' },
             { text: '计算机网络', link: '/network/' },
-            { text: '数据库', link: '/sql/' },
+            { text: '数据库', link: '/database/数据库类型' },
+            { text: '数据结构', link: '/datastructure/基本概念' },
+            { text: '算法（LeetCode）', link: '/algo/Easy' },
             {
                 text: '关于我',
                 items: [
@@ -103,6 +105,46 @@ module.exports = {
                 'Layout',
                 '事件',
                 '设计模式'
+            ],
+            '/database/': [
+                '数据库类型',
+                '存储过程',
+                '触发器',
+                '三个范式',
+                '视图',
+                'SQL语句种类',
+                '索引',
+                '事务',
+                '数据库的乐观锁和悲观锁',
+                '超键、候选键、主键、外键',
+                'SQL约束',
+                '内连接、外连接、全连接',
+                '分片、分区、分表、分库',
+                '游标',
+                '常用SQL语句',
+                'ORM',
+                '数据库连接池',
+                'B树和B+树',
+                'MySQL',
+                'SQL优化'
+            ],
+            '/datastructure/': [
+                '基本概念',
+                '哈希表',
+                '栈',
+                '队列',
+                '堆',
+                '数组和链表',
+                '树',
+                '图',
+                '排序',
+                '查找',
+                '动态规划'
+            ],
+            '/algo/': [
+                'Easy',
+                'Medium',
+                'Hard'
             ]
         }
     }

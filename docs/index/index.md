@@ -10,7 +10,7 @@
 
 * 📚 本文档是面向Android/Java技术栈方向的校招应届求职者的面经总结，涵盖了Java编程语言、Android相关知识、数据结构、操作系统、算法（LeetCode）、数据库、计算机网络等基础知识。
 * 🛠 本文档基于[VuePress](https://vuepress.vuejs.org/zh/)开发，使用的是[vuepress-theme-book](https://vuepress-theme-book.netlify.app/)主题，基于Markdown来管理知识系统。
-* 🙏 由于本人水平有限，本文档内容如有任何错误，欢迎提出[Issue](https://github.com/HurleyJames/interview-vuepress/issues)或者进行`Pull Request`。本文档遵循[MIT]协议，如果转载请注明出处。
+* 🙏 由于本人水平有限，本文档内容如有任何错误，欢迎提出[Issue](https://github.com/HurleyJames/interview-vuepress/issues)或者进行`Pull Request`。本文档遵循MIT协议，如果转载请注明出处。
 
 ## 2. 自我介绍
 
@@ -18,12 +18,12 @@
 
 ## 3. 面经版块
 
-* [Java]()：面试复习内容的Java部分。
-* [Android]()：面试复习内容的Android部分。
-* [操作系统]()：面试复习内容的操作系统部分。
-* [计算机网络]()：面试复习内容的计算机网络部分。
-* [算法（LeetCode）]()：面试复习内容的算法部分。因为国内大厂都喜欢考LeetCode上的题目，所以主要以LeetCode上的简单、中等难度题目为主。
-* [数据库]()：面试复习内容的数据库部分。
+* [Java](./../java/关键字)：面试复习内容的Java部分。
+* [Android](./../android/Activity)：面试复习内容的Android部分。
+* [操作系统](./../os/index)：面试复习内容的操作系统部分。
+* [计算机网络](./../network/index)：面试复习内容的计算机网络部分。
+* [算法（LeetCode）](./../algo/Easy)：面试复习内容的算法部分。因为国内大厂都喜欢考LeetCode上的题目，所以主要以LeetCode上的简单、中等难度题目为主。
+* [数据库](./../database/数据库类型)：面试复习内容的数据库部分。
 
 ## 4. 简历润色
 
