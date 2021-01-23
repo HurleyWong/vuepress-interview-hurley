@@ -20,13 +20,13 @@
 12. `onDetach()`：解除和Activity的绑定，是Fragment销毁的最后一步。
 
 添加Fragment可以分为**静态添加**和**动态添加***两类。**静态添加**是指在XML中直接Fragment，缺点是添加之后不能删除。一般推荐是在代码中FragmentManager中使用一系列的`FragmentTransaction`事务操作动态控制。
-* `add`
-* `remove`
-* `show`
-* `hide`
-* `replace`
-* `replace`+`addToBackStack`
-* `detach`
+* `add()`
+* `remove()`
+* `show()`
+* `hide()`
+* `replace()`
+* `replace()`+`addToBackStack()`
+* `detach()`
 
 ## Activity与Fragment的异同
 

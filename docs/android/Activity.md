@@ -33,45 +33,55 @@
 * `keyboardHidden`：键盘显示或者隐藏
 * `screenSize`：屏幕大小改变了
 
-**`AndroidManifest`没有设置`configChanges`属性**
+#### ① 如果`AndroidManifest`没有设置`configChanges`属性
 
-如果是从**竖屏启动切换横屏**：
+* 如果是从**竖屏启动切换横屏**：
 
-**竖屏启动**：`onCreate()`⟶`onStart()`⟶`onResume()`**切换横屏**：`onPause()`⟶`onSavedInstanceState()`⟶`onStop()`⟶`onDestroy()`⟶`onCreate()`⟶`onStart()`⟶`onRestoreInstanceState()`⟶`onResume()`⟶`onPause()`⟶`onStop()`⟶`onDestroy()`（Android6.0、7.0、8.0适用）
+    **竖屏启动**：`onCreate()`⟶`onStart()`⟶`onResume()`
 
-如果是从**横屏启动切换竖屏**：
+    **切换横屏**：`onPause()`⟶`onSavedInstanceState()`⟶`onStop()`⟶`onDestroy()`⟶`onCreate()`⟶`onStart()`⟶`onRestoreInstanceState()`⟶`onResume()`⟶`onPause()`⟶`onStop()`⟶`onDestroy()`（Android6.0、7.0、8.0适用）
 
-生命周期与**从竖屏启动切换横屏一样**。
+* 如果是从**横屏启动切换竖屏**：
+
+    生命周期与**从竖屏启动切换横屏一样**。
 
 **总结**：如果没有设置`configChanges`属性的话，在Android6.0、7.0、8.0的手机上表现是一样的。首先是正常地走一遍流程（在`onPause()`之后会有`onSavedInstanceState()`），然后重新创建之后在`onStart()`之后会有`onRestoreInstanceState()`。
 
-**`AndroidManifest`设置了`android:configChanges="orientation"`**
+---
 
-如果是从**竖屏启动切换横屏**：
+#### ② 如果`AndroidManifest`设置了`android:configChanges="orientation"`
 
-**Android 6.0 竖屏启动**：`onCreate()`⟶`onStart()`⟶`onResume()`**切换横屏**：`onPause()`⟶`onSavedInstanceState()`⟶`onStop()`⟶`onDestroy()`⟶`onCreate()`⟶`onStart()`⟶`onRestoreInstanceState()`⟶`onResume()`⟶`onPause()`⟶`onStop()`⟶`onDestory()`
+* 如果是从**竖屏启动切换横屏**：
 
-**Android 7.0 竖屏启动**：`onCreate()`⟶`onStart()`⟶`onResume()`**切换横屏**：`onConfigurationChanged()`⟶`onPause()`⟶`onSavedInstanceState()`⟶`onStop()`⟶`onDestroy()`⟶`onCreate()`⟶`onStart()`⟶`onRestoreInstanceState()`⟶`onResume()`⟶`onPause()`⟶`onStop()`⟶`onDestroy()`
+    **Android 6.0 竖屏启动**：`onCreate()`⟶`onStart()`⟶`onResume()`**切换横屏**：`onPause()`⟶`onSavedInstanceState()`⟶`onStop()`⟶`onDestroy()`⟶`onCreate()`⟶`onStart()`⟶`onRestoreInstanceState()`⟶`onResume()`⟶`onPause()`⟶`onStop()`⟶`onDestory()`
 
-**Android 8.0 竖屏启动**：`onCreate()`⟶`onStart()`⟶`onResume()`**切换横屏**：`onConfigurationChanged()`
+    **Android 7.0 竖屏启动**：`onCreate()`⟶`onStart()`⟶`onResume()`**切换横屏**：`onConfigurationChanged()`⟶`onPause()`⟶`onSavedInstanceState()`⟶`onStop()`⟶`onDestroy()`⟶`onCreate()`⟶`onStart()`⟶`onRestoreInstanceState()`⟶`onResume()`⟶`onPause()`⟶`onStop()`⟶`onDestroy()`
+
+    **Android 8.0 竖屏启动**：`onCreate()`⟶`onStart()`⟶`onResume()`**切换横屏**：`onConfigurationChanged()`
 
 **总结**：在设置了`configChanges`属性为`orientation`之后，Android 6.0的生命周期与没有设置是一样的。而Android 7.0则会先多回调一个`onConfigurationChanged()`方法，剩下的流程一样。Android 8.0则只是回调了`onConfigurationChanged()`方法，并没有走Activity生命周期的方法。
 
-如果是从**横屏启动切换竖屏**：
+* 如果是从**横屏启动切换竖屏**：
 
-生命周期与**从竖屏启动切换横屏一样**。
+    生命周期与**从竖屏启动切换横屏一样**。
 
-`AndroidManifest`设置了`android:configChanges="orientation|keyboardHidden|screenSize"`
+---
+
+#### ③ `AndroidManifest`设置了`android:configChanges="orientation|keyboardHidden|screenSize"`
 
 **竖屏启动**：`onCreate()`⟶`onStart()`⟶`onResume()`**切换横屏**：`onConfigurationChanged()`（Android6.0、7.0、8.0适用）
 
 **总结**：当设置了`android:configChanges="orientation|keyboardHidden|screenSize`时，就不会调用Activity其它生命周期的方法，只会调用`onConfigurationChanged()`方法。
 
-**`AndroidManifest`设置了`android:configChanges="orientation|screenSize"`**
+---
+
+#### ④ `AndroidManifest`设置了`android:configChanges="orientation|screenSize"`
 
 与`orientation|keyboardHidden|screenSize`相同，只回调`onConfigurationChanged()`方法。
 
-**`AndroidManifest`设置了`android:configChanges="orientation|keyboardHidden"`**
+---
+
+#### ⑤ `AndroidManifest`设置了`android:configChanges="orientation|keyboardHidden"`
 
 与只设置了`orientation`的相同，Android 6.0、7.0会回调生命周期的方法，Android 8.0则只回调`onConfigurationChanged()`方法。
 
