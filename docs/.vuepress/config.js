@@ -54,6 +54,7 @@ module.exports = {
         // sidebarDepth: 2,
         nav: [ // 导航栏配置
             { text: '文档首页', link: '/index/' },
+            { text: '面经', link: '/interview/Offer' },
             { text: 'Java', link: '/java/关键字' },
             { text: 'Android', link: '/android/Activity' },
             { text: '操作系统', link: '/os/' },
@@ -80,6 +81,27 @@ module.exports = {
         smoothScroll: true,
         // sidebar: loadSidebarContents(),
         sidebar: {
+            '/interview/': [
+                'Offer',
+                '微博',
+                '海康威视',
+                '中信银行信用卡中心',
+                '交行软开',
+                '小米',
+                '永辉',
+                '浙商银行',
+                '格力',
+                '金山WPS',
+                '农行数据中心',
+                '多益网络',
+                '墨迹天气',
+                '新浪',
+                '字节跳动',
+                '腾讯教育',
+                '阿里飞猪',
+                '三七互娱',
+                'Taptap'
+            ],
             '/java/': [
                 '关键字',
                 'Objects通用方法',
