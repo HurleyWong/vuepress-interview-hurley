@@ -176,7 +176,8 @@ module.exports = {
             '/algo/': [
                 'Easy',
                 'Medium',
-                'Hard'
+                'Hard',
+                '非互联网企业'
             ]
         }
     }
