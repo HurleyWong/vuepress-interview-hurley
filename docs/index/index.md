@@ -1,6 +1,6 @@
-# 序论 <Badge text="New"/>
+# 序论 <Badge text="Intro"/>
 
-::: callout 🍳 本章内容
+::: callout 🍳 Welcome
 欢迎来到 **Campus Recruitment Interview Experience** —— 这是根据自身校招经历总结的Android/Java技术方向求职者的「**校招面经**」。
 
 前事不忘，后事之师。希望通过这份校招面经，能帮助更多的学子们，披荆斩棘，收获Offer大礼包！
