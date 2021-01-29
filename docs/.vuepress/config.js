@@ -65,9 +65,10 @@ module.exports = {
             {
                 text: '关于我',
                 items: [
-                    { text: 'Blog', link: 'https://blog.hurley.fun' },
-                    { text: 'Tech Site', link: 'https://tech.hurley.fun' },
-                    { text: 'Portfolio', link: 'https://hurley.fun' }
+                    { text: 'Homepage', link: 'https://withh.life'},
+                    { text: 'Blog', link: 'https://blog.withh.life' },
+                    { text: 'Article', link: 'https://article.withh.life' },
+                    { text: 'Portfolio', link: 'https://portfolio.withh.life' }
                 ]
             }
         ],
