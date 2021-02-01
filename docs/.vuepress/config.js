@@ -5,7 +5,7 @@ const fs = require('fs');
 module.exports = {
     title: 'Hurley\'s 校招面经',
     description: 'Campus Recruitment Interview Experience',
-    keywords: 'interview, campus recruitment, java',
+    keywords: 'interview, campus recruitment, java, android',
     markdown: {
         // 代码显示行号
         // lineNumbers: true,
@@ -56,6 +56,7 @@ module.exports = {
             { text: '文档首页', link: '/index/' },
             { text: '面经', link: '/interview/Offer' },
             { text: 'Java', link: '/java/关键字' },
+            { text: 'JVM', link: '/jvm/运行时数据区域' },
             { text: 'Android', link: '/android/Activity' },
             { text: '操作系统', link: '/os/' },
             { text: '计算机网络', link: '/network/' },
@@ -119,6 +120,12 @@ module.exports = {
                 '集合框架',
                 '线程',
                 '23种设计模式'
+            ],
+            '/jvm/': [
+                '运行时数据区域',
+                'HotSpot虚拟机对象',
+                '垃圾回收算法',
+                '垃圾收集器'
             ],
             '/android/': [
                 'Activity',
