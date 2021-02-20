@@ -10,7 +10,7 @@
 
 > Campus Recruitment Interview Experience
 
-* 📦 校招面经：本面经是面向 Android  Java 技术方向的校招求职者，包括 Java 语言、操作系统、网络等知识及面试经验等
+* 📦 校招面经：本面经是面向 Android/Java 技术方向的校招求职者，包括 Java 语言、操作系统、网络等知识及面试经验等
 * 🔋 VuePress 驱动：以 Markdown 为中心的项目结构，打造校招面经的知识笔记
 
 ![文档首页](/assets/index.png)
@@ -42,17 +42,6 @@ npm install
 // 本地构建运行
 npm run docs:dev
 ```
-## ⚛️ Commit 图例
-
-| Emoji | 含义 |
-:-: | ---- |
-| 🎉 | 初始化项目 |
-| 📝 | 更新文档，包括且不仅限于 README |
-| 💡 | 发布 / 增加新的阅读笔记 |
-| ♻️ | 重构 / 修改已有的阅读笔记 |
-| 🛠 | 新增或更新代码有关的内容 |
-| ✏️ | 校对，更改排版等 |
-| ✅ | 发布测试文件 |
 
 ## 💖 支持
 
