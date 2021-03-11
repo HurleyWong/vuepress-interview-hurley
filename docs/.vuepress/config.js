@@ -68,8 +68,8 @@ module.exports = {
                 items: [
                     { text: 'Homepage', link: 'https://withh.life'},
                     { text: 'Blog', link: 'https://blog.withh.life' },
-                    { text: 'Article', link: 'https://article.withh.life' },
-                    { text: 'Portfolio', link: 'https://portfolio.withh.life' }
+                    { text: 'Portfolio', link: 'https://portfolio.withh.life' },
+                    { text: 'Soul', link: 'https://soul.withh.life' },
                 ]
             }
         ],
