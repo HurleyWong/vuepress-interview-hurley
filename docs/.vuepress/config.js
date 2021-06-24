@@ -76,7 +76,7 @@ module.exports = {
         docsDir: 'docs',
         docsBranch: 'master',
         lastUpdated: '上次更新',
-        repo: 'HurleyJames/interview-vuepress',
+        repo: 'HurleyWong/interview-vuepress',
         repoLabel: 'Github',
         editLinks: true,
         editLinkText: '在Github上编辑此页',

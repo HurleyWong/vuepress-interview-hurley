@@ -2,8 +2,8 @@
     <img src="./assets/interview-vuepress-icon.png" height="150" width="150">
     <br>
     <img alt="Netlify" src="https://img.shields.io/netlify/75665ca8-a3d4-44e4-8b10-6ca9b61ae1d1?style=plastic">&nbsp;
-    <img alt="GitHub" src="https://img.shields.io/github/license/HurleyJames/interview-vuepress?style=plastic">&nbsp;
-    <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/HurleyJames/interview-vuepress?style=plastic">
+    <img alt="GitHub" src="https://img.shields.io/github/license/HurleyWong/interview-vuepress?style=plastic">&nbsp;
+    <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/HurleyWong/interview-vuepress?style=plastic">
 </div>
 
 ## 🍻 简介
@@ -26,12 +26,12 @@
 
 ## ✏️ 参与开发
 
-由于本人水平有限，本文档内容如有任何错误，欢迎提出 [Issue](https://github.com/HurleyJames/interview-vuepress/issues) 或者进行`Pull Request`。本文档遵循 MIT 协议，如果转载请注明出处。
+由于本人水平有限，本文档内容如有任何错误，欢迎提出 [Issue](https://github.com/HurleyWong/interview-vuepress/issues) 或者进行`Pull Request`。本文档遵循 MIT 协议，如果转载请注明出处。
 
 
 ```shell
 // 克隆本仓库
-git clone https://github.com/HurleyJames/interview-vuepress.git
+git clone https://github.com/HurleyWong/interview-vuepress.git
 
 // 进入文件夹
 cd interview-vuepress
@@ -47,7 +47,7 @@ npm run docs:dev
 
 如果您认为该文档和项目都不错，并且想继续支持我从事编写该文档和项目，您可以通过以下**任意**的方式支持我：
 
-* star 或者分享[该项目](https://github.com/HurleyJames/interview-vuepress) 🌟
+* star 或者分享[该项目](https://github.com/HurleyWong/interview-vuepress) 🌟
 * 参与到该项目文档的编写中 🛠
 * 赞助我一杯星巴克 ☕️
 
