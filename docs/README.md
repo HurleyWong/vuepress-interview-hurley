@@ -11,6 +11,6 @@ features: # 表明首页的特征，固定的格式为 title + details，以三�
   - title: 🔋 VuePress 驱动
     details: 以 Markdown 为中心的项目结构，打造校招面经的知识笔记
   - title: 👨🏻‍💻 关于我
-    details: 🎓 一名刚毕业的 🇬🇧 利兹大学 Advanced Computer Science (Artificial Intelligence) 硕士
+    details: 🇬🇧 利兹大学 ACS（AI）🎓 硕士，目前就职于某银行信科部从事数据开发
 footer: MIT Licensed | Copyright © 2021-present Hurley Huang # 为底部内容，与普通的网页一样，我们可以在footer里面写版权信息
 ---
