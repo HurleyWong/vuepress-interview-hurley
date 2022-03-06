@@ -2,8 +2,8 @@
     <img src="./assets/interview-vuepress-icon.png" height="150" width="150">
     <br>
     <img alt="Netlify" src="https://img.shields.io/netlify/75665ca8-a3d4-44e4-8b10-6ca9b61ae1d1?style=plastic">&nbsp;
-    <img alt="GitHub" src="https://img.shields.io/github/license/HurleyWong/interview-vuepress?style=plastic">&nbsp;
-    <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/HurleyWong/interview-vuepress?style=plastic">
+    <img alt="GitHub" src="https://img.shields.io/github/license/HurleyWong/vuepress-interview-hurley?style=plastic">&nbsp;
+    <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/HurleyWong/vuepress-interview-hurley?style=plastic">
 </div>
 
 ## 🍻 简介
@@ -26,7 +26,7 @@
 
 ## ✏️ 参与开发
 
-由于本人水平有限，本文档内容如有任何错误，欢迎提出 [Issue](https://github.com/HurleyWong/interview-vuepress/issues) 或者进行`Pull Request`。本文档遵循 MIT 协议，如果转载请注明出处。
+由于本人水平有限，本文档内容如有任何错误，欢迎提出 [Issue](https://github.com/HurleyWong/vuepress-interview-hurley/issues) 或者进行`Pull Request`。本文档遵循 MIT 协议，如果转载请注明出处。
 
 
 ```shell
