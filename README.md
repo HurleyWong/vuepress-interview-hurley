@@ -31,10 +31,10 @@
 
 ```shell
 // 克隆本仓库
-git clone https://github.com/HurleyWong/interview-vuepress.git
+git clone https://github.com/HurleyWong/vuepress-interview-hurley.git
 
 // 进入文件夹
-cd interview-vuepress
+cd vuepress-interview-hurley
 
 // 安装依赖
 npm install
@@ -47,7 +47,7 @@ npm run docs:dev
 
 如果您认为该文档和项目都不错，并且想继续支持我从事编写该文档和项目，您可以通过以下**任意**的方式支持我：
 
-* star 或者分享[该项目](https://github.com/HurleyWong/interview-vuepress) 🌟
+* star 或者分享[该项目](https://github.com/HurleyWong/vuepress-interview-hurley) 🌟
 * 参与到该项目文档的编写中 🛠
 * 赞助我一杯星巴克 ☕️
 
@@ -73,4 +73,4 @@ npm run docs:dev
 
 Authored and maintained by Hurley Huang.
 
-[@Homepage](https://withh.life/) · [@Blog](https://blog.withh.life/) ·
+[@Homepage](https://hurleywong.com/) · [@Blog](https://blog.hurleywong.com/) ·
