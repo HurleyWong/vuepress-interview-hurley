@@ -66,17 +66,19 @@ module.exports = {
             {
                 text: '关于我',
                 items: [
-                    { text: 'Homepage', link: 'https://withh.life'},
-                    { text: 'Blog', link: 'https://blog.withh.life' },
-                    { text: 'Portfolio', link: 'https://portfolio.withh.life' },
-                    { text: 'Soul', link: 'https://soul.withh.life' },
+                    { text: 'Homepage', link: 'https://hurleywong.com'},
+                    { text: 'Blog', link: 'https://blog.hurleywong.com' },
+                    { text: 'Portfolio', link: 'https://portfolio.hurleywong.com' },
+                    { text: 'Soul', link: 'https://soul.hurleywong.com' },
+                    { text: 'Notes', link: 'https://notes.hurleywong.com' },
+                    { text: 'Article', link: 'https://article.hurleywong.com' },
                 ]
             }
         ],
         docsDir: 'docs',
         docsBranch: 'master',
         lastUpdated: '上次更新',
-        repo: 'HurleyWong/interview-vuepress',
+        repo: 'HurleyWong/vuepress-interview-hurley',
         repoLabel: 'Github',
         editLinks: true,
         editLinkText: '在Github上编辑此页',

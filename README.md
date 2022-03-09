@@ -73,4 +73,4 @@ npm run docs:dev
 
 Authored and maintained by Hurley Huang.
 
-[@Homepage](https://hurleywong.com/) · [@Blog](https://blog.hurleywong.com/) ·
+[@Homepage](https://hurleywong.com/) · [@Blog](https://blog.hurleywong.com/) · [@Article](https://article.hurleywong.com/)
