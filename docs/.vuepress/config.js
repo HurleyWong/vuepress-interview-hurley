@@ -67,11 +67,10 @@ module.exports = {
                 text: '关于我',
                 items: [
                     { text: 'Homepage', link: 'https://hurleywong.com'},
-                    { text: 'Blog', link: 'https://blog.hurleywong.com' },
-                    { text: 'Portfolio', link: 'https://portfolio.hurleywong.com' },
-                    { text: 'Soul', link: 'https://soul.hurleywong.com' },
                     { text: 'Notes', link: 'https://notes.hurleywong.com' },
-                    { text: 'Article', link: 'https://article.hurleywong.com' },
+                    { text: 'Soul', link: 'https://soul.hurleywong.com' },
+                    { text: 'Bank', link: 'https://bank.hurleywong.com' },
+                    { text: 'RTFSC', link: 'https://rtfsc.hurleywong.com' },
                 ]
             }
         ],
