@@ -3,14 +3,14 @@ const path = require('path');
 const fs = require('fs');
 
 module.exports = {
-    title: 'Hurley\'s 校招面经',
-    description: 'Campus Recruitment Interview Experience',
+    title: '牛马程序员-项目源码大全',
+    description: '',
     keywords: 'interview, campus recruitment, java, android',
     markdown: {
         // 代码显示行号
         // lineNumbers: true,
     },
-    author: 'Hurley Huang',
+    author: '',
     head: [
         ['link', { rel: 'icon', href: '/icon.png' }]
     ],

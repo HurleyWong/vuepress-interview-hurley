@@ -63,3 +63,78 @@ pre.tree
   ::-webkit-scrollbar-thumb
     background-color rgba(255, 255, 255, 0.4)
     border-radius 6px
+
+// 添加项目表格的全局样式
+
+// 项目表格固定布局
+.project-table-container {
+  width: 100%;
+  margin-bottom: 20px;
+  page-break-inside: avoid;
+}
+
+// 确保表格列宽固定
+.project-table-container table {
+  width: 100%;
+  table-layout: fixed !important;
+  border-collapse: collapse;
+}
+
+// 单元格样式
+.project-table-container th,
+.project-table-container td {
+  padding: 10px;
+  border: 1px solid #ddd;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+}
+
+// 表头样式
+.project-table-container th {
+  background-color: #f2f2f2;
+  font-weight: bold;
+}
+
+// 设置各列宽度
+.project-table-container th:nth-child(1),
+.project-table-container td:nth-child(1) {
+  width: 10%; // 编号列
+  text-align: center;
+}
+
+.project-table-container th:nth-child(2),
+.project-table-container td:nth-child(2) {
+  width: 15%; // 框架列
+}
+
+.project-table-container th:nth-child(3),
+.project-table-container td:nth-child(3) {
+  width: 55%; // 题目列 - 最宽，因为内容通常最长
+}
+
+.project-table-container th:nth-child(4),
+.project-table-container td:nth-child(4) {
+  width: 20%; // 文档列
+}
+
+// 隔行变色
+.project-table-container tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+// 打印样式
+@media print {
+  .project-table-container {
+    page-break-inside: auto;
+  }
+  
+  .project-table-container tr {
+    page-break-inside: avoid;
+    page-break-after: auto;
+  }
+  
+  .project-table-container th,
+  .project-table-container td {
+    page-break-inside: avoid;
+  }
+}

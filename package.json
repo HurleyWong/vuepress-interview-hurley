@@ -1,5 +1,5 @@
 {
-    "name": "interview-vuepress",
+    "name": "vuepress-graduation-projects",
     "version": "1.0.0",
     "description": "",
     "scripts": {
@@ -13,6 +13,9 @@
         "@maginapp/vuepress-plugin-katex": "^1.0.10",
         "@vuepress/plugin-back-to-top": "^1.8.0",
         "@vuepress/plugin-medium-zoom": "^1.8.0",
+        "element-ui": "^2.15.14",
+        "vue": "^2.6.14",
+        "vue-server-renderer": "^2.6.14",
         "vuepress": "^1.8.0",
         "vuepress-plugin-code-copy": "^1.0.6",
         "vuepress-plugin-container": "^2.1.5",
